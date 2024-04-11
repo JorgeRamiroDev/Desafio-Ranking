@@ -1,14 +1,15 @@
 
 # Desafio Ranking : 
 
-Este desafio tem como proposito medir a curva de aprendizado dos candidatos a vaga de analista junior da big data.
+Este desafio tem como proposito medir a curva de aprendizado dos candidatos a vaga de ciêntista de dados junior.
 
 ## Missões :
 
 Se você está lendo isso significa que já baixou nossa base de dados e está com ela em mãos, a partir de agora começa o verdadeiro desafio.
 
-Algumas folhas são compostas por siglas como : "AS" até "SS-TE",essas folhas tem várias tabelas sendo a primeira(que termina antes de "Dados Normalizados") a que nos interessa, a grande problematica é: Em cada folha só terá um ano , EX: No arquivo de 2023 em "AS" a primeira tabela terá apenas os dados de 2023.
+Algumas folhas são compostas por siglas como : "AS" (pilar) até "SS-TE" (indicador de um pilar),essas folhas tem várias tabelas sendo a primeira (que termina antes de "Dados Normalizados") a que nos interessa, a grande problemática é: Em cada folha só terá um ano , EX: No arquivo de 2023 em "AS" a primeira tabela terá apenas os dados de 2023, no arquivo de 2022 apenas os dados de 2022, e assim por diante até 2015. Em alguns casos pode não ter todos os dados, o que é normal! Agora, a sua tarefa é para cada indicador e para cada pilar coletar todos os dados (apenas a primeira tabela não normalizada) de cada ano, e no final, cada um terá uma única tabela de 2015 a 2023 com todos os dados unificados dessa mesma tabela (caso tenha).
 
+![Esquema]('Esquema\Design sem nome.png')
 
 ## Métrica de avaliação :
 
@@ -23,3 +24,6 @@ Domingo 14/04
 
 ## Dúvidas:
 Entre em contato pelo whatsapp
+
+
+# ATENÇÃO VOCÊS NÃO IRÃO SUBIR NADA PRA ESSE REPOSITÓRIO, CRIEM O DE VOCÊS.
